@@ -147,6 +147,192 @@
     },
 
     {
+      "tag": "cursos",
+      "patterns": [
+        "Que cursos puedo llevar",
+        "ver el listado de cursos",
+        "quiero ver el pensum",
+        "pensum 2014",
+        "pensum actual"
+      ],
+      "responses": [
+        "me prodias decir que semestre te tocaria",
+        "aqui puedes ver el pensum 2014: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del primer semestre",
+        "curso del primero",
+        "el primero",
+        "primer semestre",
+        "soy nuevo",
+        "el numero uno"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Desarrollo Humano y Profesional, Metodologia de la investigacion, Contabilidad 1, Introduccion a los sistemas de computo, Logica de sistemas"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del segundo semestre",
+        "curso del segundo",
+        "el segundo",
+        "segundo semestre",
+        "el numero dos",
+        "semestre 2"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Precalculo, Algebra lineal, Algoritmos, Contabilidad 2, Matematiaca Discreta"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del tercer semestre",
+        "cursos de tercer ciclo",
+        "curso del tercero",
+        "el tercero",
+        "tercer semestre",
+        "el numero tres",
+        "semestre 3"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Fisica 1, Programacion 1, Calculo 1, Proceso Administrativo, Derecho Informatico"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del cuarto semestre",
+        "cursos de cuarto ciclo",
+        "curso del cuarto",
+        "el cuarto",
+        "cuarto semestre",
+        "el numero cuatro",
+        "semestre 4"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Microeconomia, Progamacion 2, calculo 2, Estadistica, Fisica 2"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del quinto semestre",
+        "cursos de quinto ciclo",
+        "curso del quinto",
+        "el quinto",
+        "quinto semestre",
+        "el numero cinco",
+        "semestre 5"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Metodos Numericos, programcion 3, Emprendores de Negocios, Electronica Analogica, Estadistica 2"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del sexto semestre",
+        "cursos de sexto ciclo",
+        "curso del sexto",
+        "el sexto",
+        "sexto semestre",
+        "el numero seis",
+        "semestre 6"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Investigacion de Operaciones, Base de Datos 1, Automatas y Lenguajes Formales, Sistemas Operativos 1, Electronica Digital"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del septimo semestre",
+        "cursos de septimo ciclo",
+        "curso del septimo",
+        "el septimo",
+        "septimo semestre",
+        "el numero siete",
+        "semestre 7"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Base de Datos 2, Analisis de Sistemas 1, Sistemas Operativos 2, Arquitectura de Computadoras 1, Compiladores"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del octavo semestre",
+        "cursos de octavo ciclo",
+        "curso del octavo",
+        "el octavo",
+        "octavo semestre",
+        "el numero ocho",
+        "semestre 8"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Desarrollo Web, Analisis de sistemas 2, Redes de Computadoras 1, Etica Profesional, Arquitectura de Computadoras 2"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del noveno semestre",
+        "cursos de noveno ciclo",
+        "curso del noveno",
+        "el noveno",
+        "noveno semestre",
+        "el numero nueve",
+        "semestre 9"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Administracion de Tecnologias de Informacion, Ingenieria de software, Proyecto de Graduacion, Redes de Computadoras 2, Inteligencia Artificial"
+      ]
+    },
+
+    {
+      "tag": "cursos",
+      "patterns": [
+        "cursos del decimo semestre",
+        "cursos de decimo ciclo",
+        "curso del decimo",
+        "el decimo",
+        "decimo semestre",
+        "el ultimo",
+        "el numero diez",
+        "semestre 10"
+      ],
+      "responses": [
+        "ver aqui: https://umgedu.org/wp-content/uploads/2018/10/Pensum-Sistemas-2014.pdf",
+        "Telecomunicaciones seminario de tecnologias de informacion, Aseguramiento de la calidad del software, Proyecto de graduacion 2, Seguridad y Auditoria de sistemas"
+      ]
+    },
+
+    
+
+    {
       "tag": "saludo",
       "patterns": [
         "Hola",
