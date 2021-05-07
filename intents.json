@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "internet",
+      "patterns": [
+        "conozes algun buscador",
+        "Me puedes mensionar algun buscador",
+        "Donde puedo buscar"
+      ],
+      "responses": [
+        "https://www.google.com/",
+        "https://duckduckgo.com/"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "universidad",
+      "patterns": [
+        "te puedo pregunta algo de la universidad",
+        "me puedes resolver dudas de la UMG",
+        "Tiene informacion hacer de la Mariano Galvez",
+        "Me puedes resolver mis dudas de la U",
+        "me puedes ayudar con la universidad",
+        "me puedes ayudar con temas de la u"
+      ],
+      "responses": [
+        "Claro yo soy un bot para resolver tus dudas con respecto a la Universidad",
+        "Que deseas saber",
+        "claro en que te ayudo",
+        "soy un bot creado para eso, por estudiantes de la universidad"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "universidad",
+      "patterns": [
+        "Me puedes recomendar una univesidad",
+        "quiero estudiar en la universidad",
+        "es buena uni Mariano Galvez",
+        "es buena universidad la Mariano Galvez",
+        "me puedes ayudar con temas de la u"
+      ],
+      "responses": [
+        "La Mariano es una gran  eleccion",
+        "La Mariano tiene buen historial",
+        "Los estudiantes de la Mariano salen muy bien preparados"
+      ],
+      "context_set": ""
+    },
+    
+    {
+      "tag": "universidad",
+      "patterns": [
+        "Me puedes recomendar una carrera",
+        "aun no se que estudiar que me recomiendas",
+        "seria buena opcion estudiar Ingenieria",
+        "seria buena opcion estudiar Ingenieria en sistemas",
+        "no se que que estudiar"
+      ],
+      "responses": [
+        "Ingenieria en Sistemas tiene buena pinta",
+        "Ingenieria en sistemas es el futuro",
+        "te gustan la computadora ingenieria es lo tuyo"
+      ],
+      "context_set": ""
+    },
+
+
+    {
+      "tag": "faculdates",
+      "patterns": [
+        "facultades de la u",
+        "las facultadates",
+        "facultades de la universidad",
+        "cuales son la facultades de la universidad",
+        "cueles son facultades tiene la UMG",
+        "me podrias decir que facultades tengo disponible",
+        "dime cueales son la facultades de la u"
+      ],
+      "responses": [
+        "Arquitectura, Ciencia de la administracion, Ciencia de la Comunicacion, Ciencia Economicas, Ciencias Juridicas y Sociales, Ciencias Medicas y de la salud, Ciencias Quimicas y Biologicas, Humanidades,  Ingenieria Matematicas y Ciencias Fisicas, Ingenieria en Sistemas, Odontologia, Psicologia, Teologia",
+        "visita: https://umg.edu.gt/#facultades",
+        "La pagina oficial es https://umg.edu.gt/#facultades"
+
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "ingenieria en sistemas",
+      "patterns": [
+        "Puedo estudiar ingenieria aqui en la mariano",
+        "existe la carrera de ingenieria",
+        "Quiero estudiar ingenieria"
+      ],
+      "responses": [
+        "Claro que si la UMG tiene uno de los mejores centro de estudio para esta carrera",
+        "El Ingeniero en Sistemas de Información egresado de la Universidad Mariano Gálvez de Guatemala, es un profesional que se desempeña en el área de sistemas e informática capacitado para las siguientes actividades"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "ingenieria en sistemas",
+      "patterns": [
+        "Que es la ingenieria en sistemas",
+        "me puedes contar mas sobre sistemas",
+        "cuentame mas sobre la ingenieria en sistemas"
+      ],
+      "responses": [
+        "Integración de sistemas operativos, redes de computadoras, telecomunicaciones, hardware, bases de datos, aseguramiento de la calidad y técnicas de desarrollo de software",
+        "Análisis, diseño y desarrollo de sistemas de información útiles a las empresas, aplicando conceptos gerenciales, ingeniería económica, estadística, calidad y procesos administrativos",
+        "Realizar estudios de desempeño y uso de sistemas automatizados"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "ingenieria en sistemas",
+      "patterns": [
+        "Cuales son las maestria de Ingenieria en sistemas",
+        "Tiene maestrias ingenieria en sistemas"
+      ],
+      "responses": [
+        "tiene estas de momento: Informática con Énfasis en Banca Electronica, Informática con Énfasis en Cominicaciones, Redes y Telecomunicaciones, Seguridad Informática"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "herramientas de estudio",
+      "patterns": [
+        "Cuales son las herramientas que usa la universidad",
+        "cual es la tecnologia que unitiliza la U",
+        "cual es la tecnologia que unitiliza la Universidad",
+        "cual es la tecnologia para dar clases",
+        "como se llevan las clases virtuales"
+      ],
+      "responses": [
+        "Estas son la princiapales herramientas de estudio: BlackBoard, Email y calendario, Collaborate Ultra, Microsoft Teams, Zoom",
+        "aqui puedes buscar mas info sobre el tema: https://umg.edu.gt/herramientas-recursos",
+        "visista https://umg.edu.gt/herramientas-recursos",
+        "BlackBoard, Email y calendario, Collaborate Ultra, Microsoft Teams, Zoom"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Que tal",
+        "como estas",
+        "Que pasa",
+        "Ayuda",
+        "quiero ayuda",
+        "necesito ayuda"
+      ],
+      "responses": [
+        "Hola que deseas",
+        "Con quien tengo el gusto",
+        "todo bien y tu",
+        "aqui estoy en que puedo ayudarte"
+      ]
+    },
+    {
+      "tag": "sobre mi",
+      "patterns": [
+        "quien eres",
+        "que eres",
+        "por que estas aqui",
+        "como te llamas",
+        "cual es tu nombre",
+        "me diria como te llamas",
+        "porque nombre repondes"
+      ],
+      "responses": [
+        "me puedes llamar maya",
+        "Mi nombre es maya",
+        "Mi nombre es maya y soy un bot",
+        "Soy un bot para la Universidad",
+        "Soy un bot y estoy para ayudarte",
+        "soy un bot que puede resolver tus dudas"
+      ]
+    }
+  ]
+}
