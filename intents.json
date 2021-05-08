@@ -7,10 +7,7 @@
         "Me puedes mensionar algun buscador",
         "Donde puedo buscar"
       ],
-      "responses": [
-        "https://www.google.com/",
-        "https://duckduckgo.com/"
-      ],
+      "responses": ["https://www.google.com/", "https://duckduckgo.com/"],
       "context_set": ""
     },
 
@@ -48,7 +45,7 @@
       ],
       "context_set": ""
     },
-    
+
     {
       "tag": "universidad",
       "patterns": [
@@ -66,7 +63,6 @@
       "context_set": ""
     },
 
-
     {
       "tag": "faculdates",
       "patterns": [
@@ -82,7 +78,6 @@
         "Arquitectura, Ciencia de la administracion, Ciencia de la Comunicacion, Ciencia Economicas, Ciencias Juridicas y Sociales, Ciencias Medicas y de la salud, Ciencias Quimicas y Biologicas, Humanidades,  Ingenieria Matematicas y Ciencias Fisicas, Ingenieria en Sistemas, Odontologia, Psicologia, Teologia",
         "visita: https://umg.edu.gt/#facultades",
         "La pagina oficial es https://umg.edu.gt/#facultades"
-
       ],
       "context_set": ""
     },
@@ -330,7 +325,362 @@
       ]
     },
 
-    
+    {
+      "tag": "Asignacione",
+      "patterns": [
+        "como me asigno cursos",
+        "como realizo mi asignacion",
+        "cuantos cursos puedo asignarme",
+        "donde me asigno los cursos",
+        "donde hay que asignarse",
+        "que es la signacion de cursos"
+      ],
+      "responses": [
+        "ver aqui: https://umg.edu.gt/info/estudiantes/asignaciones"
+      ]
+    },
+
+    {
+      "tag": "Centros de estudio",
+      "patterns": [
+        "hay una centro cerca de mi",
+        "donde puedo ver los centros de estudio",
+        "Hay centro de estudio en mi departamento",
+        "cuales son los centro de estudio",
+        "ver los lugares de estudio"
+      ],
+      "responses": [
+        "ver aqui estan todos los centros: https://umgedu.org/centros-u/"
+      ]
+    },
+
+    {
+      "tag": "eventos",
+      "patterns": [
+        "ver eventos",
+        "hay algun evento de la universidad",
+        "hay algun evento cercano",
+        "mostrame la lista de eventos"
+      ],
+      "responses": [
+        "ver aqui los eventos mas cercanos: https://umgedu.org/eventos/"
+      ]
+    },
+
+    {
+      "tag": "inscripcion",
+      "patterns": [
+        "Cuanto cuesta la inscripcion",
+        "la inscripcion es gratis",
+        "precio de inscripcion",
+        "en que banco puedo pagar la inscripcion",
+        "donde pago la incripcion",
+        "en que banco puedo pagar la inscripcion"
+      ],
+      "responses": [
+        "ver aqui todo el proceso https://umg.edu.gt/info/inscripciones"
+      ]
+    },
+
+    {
+      "tag": "inscripcion",
+      "patterns": [
+        "Requesitos para inscripcion",
+        "Que necesito para inscribirme",
+        "como realizo mi inscripcion",
+        "Cuales son los documentos necesario para inscribirme",
+        "cuales son los requesitos para inscribirme",
+        "informacion para la inscripcion",
+        "lista de requesitos para la inscripcion"
+      ],
+      "responses": [
+        "ver aqui los requisitos de inscripcion: https://umgedu.org/admision/",
+        "Constancia de aprobación de Evaluación de Ubicación (*), Titulo o Diploma de Nivel Medio en original, registrado en la Contraloría General de Cuentas, Fotostática 5” x 7” del Título o Diploma de Nivel Medio, ambos lados, Certificado General de Estudios de Nivel Medio, original (Básicos y diversificado), Dos fotografías recientes tamaño cédula, Fotocopia de DPI o Pasaporte si es extranjero, Pago de Inscripción"
+      ]
+    },
+
+    {
+      "tag": "pagos",
+      "patterns": [
+        "Donde puedo hacer mis pagos",
+        "En que banco pago",
+        "Donde hay que ir a pagar",
+        "Donde pago mi Boleta",
+        "donde pago mi colegiatura",
+        "quiero pagar mi colegiatura",
+        "Cuales son los pagos que puedo hacer en banco en linea"
+      ],
+      "responses": [
+        "Los tres bancos: Banco Industrial, BAM, G&T",
+        "ver aqui: https://umg.edu.gt/info/estudiantes/colegiaturas"
+      ]
+    },
+
+    {
+      "tag": "pagos",
+      "patterns": [
+        "Cuando debo pagar",
+        "cuando debo pagar mensualmente",
+        "en que fecha hay que pagar",
+        "en que fecha hay que pagar la mensualidad"
+      ],
+      "responses": [
+        "Los pagos de colegiaturas se deben efectuar por anticipado dentro de los primeros diez (10) dias del mes."
+      ]
+    },
+
+    {
+      "tag": "pagos",
+      "patterns": [
+        "De cuanto es la mora",
+        "cuanto hay que pagar de mora",
+        "cuanto ya estoy en mora"
+      ],
+      "responses": [
+        "Si paga después del día diez (10) de cada mes, deberá cancelar una mora de Q. 25.00 por mes, si es de grado, si se trata de posgrado, la mora será de Q. 50.00 por mes"
+      ]
+    },
+
+    {
+      "tag": "pagos",
+      "patterns": [
+        "De cuanto es la mora por curso",
+        "cuanto me cobrea por examinarme sin estar solvente",
+        "cual es la mora por evaluarme insolvente",
+        "que pasa si me examino sin  estar solvente",
+        "estoy insolvente me puedo examinar"
+      ],
+      "responses": [
+        "Aplica multa de Q. 25.00 por cada evaluación a la que se someta estando insolvente."
+      ]
+    },
+
+    {
+      "tag": "talonario",
+      "patterns": [
+        "donde saco mi talonario de pago",
+        "puedo sacar talonario",
+        "donde pago el talonario",
+        "como obtengo mi talonario de paga",
+        "talonario de pago"
+      ],
+      "responses": [
+        "visital el siguiente enlace: https://umg.edu.gt/talonario-de-pagos"
+      ]
+    },
+
+    {
+      "tag": "examen",
+      "patterns": [
+        "cuando son los examenes",
+        "muestrame la fecha de examenes",
+        "fecha de examenes",
+        "examenes finales"
+      ],
+      "responses": [
+        "visital el siguiente enlace: https://umg.edu.gt/calendario",
+        "Evaluaciones Finales Primer Semestre junio 01 al 13"
+      ]
+    },
+
+    {
+      "tag": "examen",
+      "patterns": [
+        "examen extraordinario segundo parcial",
+        "muestrame la fecha de examenes extraordinarios",
+        "fecha de examen extraordinario",
+        "examenes extraordinarios"
+      ],
+      "responses": [
+        "visital el siguiente enlace: https://umg.edu.gt/calendario",
+        "Evaluaciones Extraordinarias Segundo Parcial mayo 03 al 09"
+      ]
+    },
+
+    {
+      "tag": "examen",
+      "patterns": [
+        "cuando son los examenes de recuperacion",
+        "muestrame la fecha de examenes de recuperacion",
+        "fecha de examenes de recuperacion",
+        "examenes de recuperacion"
+      ],
+      "responses": [
+        "visital el siguiente enlace: https://umg.edu.gt/calendario",
+        "Evaluaciones de Recuperación junio 19 al 27"
+      ]
+    },
+    {
+      "tag": "examenes",
+      "patterns": [
+        "como hago un examen extraordinario",
+        "quiero hacerme un extraordinario",
+        "que necesito para examinarme en extraordinario"
+      ],
+      "responses": [
+        "Por la situacion del covid-19 tu debes de acobarte al catedratico y el te dara todos los lineamientos"
+      ]
+    },
+
+    {
+      "tag": "graduacion",
+      "patterns": [
+        "Cual es el proceso de cierre",
+        "que necesito para cerrar",
+        "que necesito para graduarme",
+        "Cuáles son los pasos para graduarme",
+        "quiero graduarme que necesito",
+        "me quiero graduar que necesito"
+      ],
+      "responses": [
+        "visital el siguiente enlace: https://umgedu.org/pregrado2/",
+        "Existen varias modalidades. Modelo tradicional, que incluye: Trabajo de Graduación (Tesis) o Maestría (50%) por tesis, valuación Privada de 3 días, Modelo de Seminario de Privado que incluye: Trabajo de Graduación (Tesis) o  Maestría (50%) por tesis, Evaluación Privada en Seminario de Privado (6 meses), Modelo Maestrías 100% de las siguientes maestrías, sustituyen la evaluación privada y el trabajo de graduación: Informática con énfasis en banca electrónica y comunicaciones Seguridad Informática Redes y Telecomunicaciones"
+      ]
+    },
+
+    {
+      "tag": "notas",
+      "patterns": [
+        "Porque no miro mi nota en el sistema",
+        "Mi nota no aparece",
+        "porque no puedo ver mis notas"
+      ],
+      "responses": [
+        "Tu debes estar solvente",
+        "lo mas probable es que no estes solvente"
+      ]
+    },
+
+    {
+      "tag": "notas",
+      "patterns": [
+        "como puedo ver mis notas",
+        "donde puedo ver mis notas",
+        "quiero ver mis notas"
+      ],
+      "responses": [
+        "La manera mas facil es que las veas desde la app movil",
+        "Puedes ver las en tu portal web y en la aplicacion movil"
+      ]
+    },
+
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Dónde puedo obtener mi usuario y contraseña"],
+      "responses": [
+        "Puedes obtenerlo en tu DIRE, cuando completas tu asignación de cursos. Cuándo inicies sesión recuerda ingresar el usuario completo, incluyendo el dominio @miumg.edu.gt"
+      ]
+    },
+
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Dónde puedo recuperar mi contraseña"],
+      "responses": [
+        "entra al siguiente link y llena el formularion: https://umg.edu.gt/plus/soporte/"
+      ]
+    },
+
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Dónde puedo ver mis notas"],
+      "responses": [
+        "Puedes ver tus notas en la plataforma Mi UMG, ingresando con tu usuario y contraseña."
+      ]
+    },
+
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": [
+        "Quiero ver la información que mi catedrático está compartiendo de mi curso, dónde puedo consultar"
+      ],
+      "responses": [
+        "Tu docente estará compartiendo información del curso a través de la plataforma de BlackBoard."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Quiero subir mis tareas, dónde debo hacerlor"],
+      "responses": [
+        "Las tareas debes entregarlas a través de la plataforma de BlackBoard en tu curso correspondiente."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Cómo puedo acceder a BlackBoard"],
+      "responses": [
+        "Puedes ingresar a BlackBoard, https://umg.blackboard.com/. Recuerda utilizar el campo de selección, en la parte inferior del formulario y selecciona la opción 'Iniciar sesión con una cuenta de terceros'. Selecciona tu cuenta de la Universidad si ya tienes iniciada sesión o bien colocando tu usuario y contraseña proporcionada por la Universidad"
+      ]
+    },
+
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["No aparece mi curso en BlackBoard, qué debo hacer"],
+      "responses": [
+        "Sí tu curso, no aparece en BlackBoard debes comunicarte con tu docente para que te asigne a dicho curso."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": [
+        "Tengo problemas con mi licencia de Office 365, dónde puedo solucionarlo"
+      ],
+      "responses": [
+        "El Soporte General de Office 365 la obtienes de Microsoft, sin embargo si tienes problemas con tu licencia puedes enviar correo electrónico a: soporteoffice@miumg.edu.gt"
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Cómo puedo descargar e instalar Office 365"],
+      "responses": [
+        "Para iniciar sesión en Office 365 debes utilizar tu usuario y contraseña proporcionados por la Universidad, éstos se encuentran en tu DIRE de Asignación."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": [
+        "Dónde puedo descargar la aplicación de la Universidad para mi teléfono"
+      ],
+      "responses": [
+        "Actualmente nuestra aplicación está disponible para plataformas Android, puedes descargarlo https://play.google.com/store/apps/details?id=umg.app.android"
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": [
+        "Qué sucedió con mi trámite de constancia de cursos aprobados"
+      ],
+      "responses": [
+        "Puedes consultar información de certificación de cursos aquí https://umg.edu.gt/certificaciones"
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Cómo puedo gestionar mi papelería con la Universidad"],
+      "responses": [
+        "Cualquier duda puedes comunicarte al correo electrónico: registro@umg.edu.gt."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Cómo puedo ver temas relacionados a mi solvencia"],
+      "responses": [
+        "Cualquier duda puedes comunicarte al correo electrónico: tesoreria@umg.edu.gt."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Qué sucedió con las graduaciones"],
+      "responses": [
+        "Cualquier duda puedes comunicarte al correo electrónico: secretariageneral@umg.edu.gt."
+      ]
+    },
+    {
+      "tag": "preguntas frecuentes",
+      "patterns": ["Qué sucedió con los privados"],
+      "responses": [
+        "Cualquier duda puedes comunicarte al correo electrónico: registro@umg.edu.gt."
+      ]
+    },
 
     {
       "tag": "saludo",
@@ -350,9 +700,11 @@
         "aqui estoy en que puedo ayudarte"
       ]
     },
+
     {
       "tag": "sobre mi",
       "patterns": [
+        "mi nombre es y el tuyo",
         "quien eres",
         "que eres",
         "por que estas aqui",

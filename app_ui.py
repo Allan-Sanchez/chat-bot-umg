@@ -57,7 +57,7 @@ class ChatApplication:
         send_button.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)
         
     def _on_enter_pressed(self, event):
-        print(event)
+        # print(event)
         msg = self.msg_entry.get()
         self._insert_message(msg, "Tu")
         
